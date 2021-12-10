@@ -1,0 +1,15 @@
+{
+  "name": "noitawikiscraper",
+  "version": "1.0.0",
+  "description": "Scrape the noita wiki for spell info to get it all into one sheet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request-promise": "^4.2.6"
+  }
+}
