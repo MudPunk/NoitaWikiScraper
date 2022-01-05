@@ -1,401 +1,394 @@
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-???,,5,2,5.7,450,,-0.05,,+2,,,,+1
-Acid Ball,20,20,9,,99,330,+0.17,,,,,,
-Arrow,,15,,0.6,600,750,+0.17,,-20,,,,
-Black Hole,3,180,1,,40,120,+1.33,,,,,,
-Black Hole with Death Trigger,3,200,1,,40,120,+1.50,,,,,,
-Bomb,3,25,60,,60,180,+1.67,,,,,,
-Bomb Cart,6,75,40,,30,420,+1.00,,,,,,
-Bouncing Burst,,5,,0.6,700,750,-0.03,,-1,,,,
-Bubble Spark,,5,4,22.9,250,100,-0.08,,,,,,
-Bubble Spark With Trigger,,16,4,22.9,250,100,-0.08,,,,,,
-Burst Of Air,,5,,,400,40,+0.05,,-2,,,,
-Chain Bolt,,80,,,40,44,+0.75,,+14,,,,
-Chainsaw,,1,3,,,1,0.00,-0.17,+6,,,,
-Cursed Sphere,,40,1,8.6,1,120,+0.33,,,,,,
-Death Cross,,80,25,,,68,+0.67,,,,,,
-Giga Death Cross,8,150,35,,,50,+1.17,,,,,,
-Plasma Beam Cross,,80,,,40,,+0.25,,,,,,
-Digging Blast,,0,7,,,2,+0.02,-0.17,,,,,
-Digging Bolt,,0,6,,,2,+0.02,-0.17,,,,,
-Dormant Crystal,20,20,30,2.9,265,-1,+0.50,,,0.75,,,
-Dormant Crystal With Trigger,20,20,30,2.9,265,-1,+0.50,,,0.75,,,
-Dropper Bolt,35,80,16,2.9,65,500,+0.67,,,,,,
-Dynamite,16,50,28,,800,50,+0.83,,+6,,,,
-Earthquake,3,240,2,,110,30,,,,,,,
-Eldritch Portal,5,140,,,,800,+0.50,,,,,,
-Energy Orb,,30,15,1.7,210,50,+0.10,,+4,,,,
-Energy Orb With A Trigger,,50,15,1.7,210,50,+0.42,,+10,,,,
-Energy Orb With A Timer,,50,15,1.7,210,50,+0.10,,+4,,,,
-Energy Sphere,,20,2,0.6,450,750,+0.17,,,,,,
-Energy Sphere With Timer,,50,2,0.6,450,750,+0.17,,,,,,
-Expanding Sphere,,70,,+8.6,50,,+0.50,,,,,,
-Fireball,15,70,15,,165,60,+0.83,,+4,,,,
-Firebolt,25,50,7,2.9,265,500,+0.50,,,,,,
-Firebolt With Trigger,25,50,7,2.9,265,500,+0.50,,,,,,
-Large Firebolt,20,90,25,2.9,265,500,+0.83,,,,,,
-Giant Firebolt,20,90,40,2.9,265,500,+1.33,,,,,,
-Odd Firebolt,25,50,7,2.9,265,500,+0.50,,,,,,
-Firebomb,,10,7,2.9,130,70,,,,,,,
-Fireworks!,25,70,15,,75,30,+1.00,,,,,,
-Flamethrower,60,20,8,,165,80,,,+4,,,,
-Flock Of Ducks,20,100,25,2.9,265,,+1.0,+0.33,,,,,
-Freezing Gaze,20,45,,,220,25,+0.33,,,,,,
-Glitter Bomb,16,70,16,,800,50,+0.83,,+12,,,,
-Glowing Lance,,30,1,0.2,350,300,+0.33,,-20,,,,
-Glue Ball,,25,,8.6,325,,+0.50,,+5,,,,
-Healing Bolt,20,15,2,0.6,625,60,+0.07,,+2,,,,
-Holy Bomb,2,300,180,,,170,+0.67,+1.33,,,,,
-Giga Holy Bomb,2,600,320,,60,,+2.0,+2.67,,,,,
-Iceball,15,90,15,,165,60,1.33,,+8,,,,
-Infestation,,40,,360,550,600,-0.03,,+25,,,,
-Concentrated Light,,30,3,,140,30,-0.37,,,,,,
-Intense Concentrated Light,,110,,2.9,1,32,+1.50,,,,,,
-Lightning Bolt,,70,35,,,2,+0.83,,,,,,
-Ball Lightning,,70,15,45.8,800,30,+0.83,,,,,,
-Thunder Charge,3,120,50,,110,100,+2.00,,,,,,
-Luminous Drill,,10,,,1400,2,-0.58,-0.17,,,,,
-Luminous Drill With Timer,,30,,,1400,2,-0.58,-0.17,,,,,
-Magic Arrow,,20,2,0.6,625,40,+0.07,,+2,,,,+5
-Magic Arrow With Trigger,,35,2,0.6,625,40,+0.07,,+2,,,,+5
-Magic Arrow With Timer,,35,2,0.6,625,40,+0.07,,+2,,,,+5
-Magic Bolt,,30,6,2.9,675,30,+0.12,,+5,,,,+5
-Magic Bolt With Trigger,,40,6,2.9,675,30,+0.12,,+5,,,,+5
-Magic Bolt With Timer,,40,6,2.9,675,30,+0.12,,+5,,,,+5
-Magic Guard,,40,,,,5,+0.33,,,,,,
-Big Magic Guard,,60,,,,5,+0.50,,,,,,
-Magic Missile,10,70,15,,85,360,+1.00,,,,,,
-Large Magic Missile,8,90,32,,85,360,+1.50,,,,,,
-Giant Magic Missile,6,120,42,,85,360,+2.00,,,,,,
-Meteor,10,150,45,,350,200,,,,,,,
-Blood Mist,10,40,,,,500,+0.17,,,,,,
-Mist Of Spirits,,40,,,,100,+0.17,,,,,,
-Slime Mist,,40,,,,500,+0.17,,,,,,
-Toxic Mist,,40,,,,500,+0.17,,,,,,
-Nuke,1,200,250,0.6,300,360,+0.33,+10.00,,0.75,,,
-Giga Nuke,1,500,400,0.6,900,,+0.83,+13.33,,0.50,,,
-Path Of Dark Flame,60,90,1,,250,100,+0.33,,,,,,
-Pinpoint Of Light,,65,20,1.7,850,90,+0.67,,+6,,,,
-Plasma Beam,,60,,,40,,+0.10,,,,,,
-Plasma Cutter,,40,,,40,,,+0.17,,,,,
-Pollen,,10,7,0.6,200,,+0.03,,+20,,,,
-Prickly Spore Pod,,20,,2.9,225,100,+0.67,,,,,,
-Propane Tank,10,75,60,,,-1,+1.67,,,,,,
-Random Projectile Spell,,20,,,,,,,,,,,
-Chaos Magic,30,120,,,,,+0.67,,,,,,
-Rock,3,100,,,,-1,,,,,,,
-Disc Projectile,,20,,0.6,400,750,+0.17,,+2,,,,
-Giga Disc Projectile,,38,,0.6,250,300,+0.33,,+3,,,,
-Summon Omega Sawblade,,70,,0.6,150,500,+0.67,,+6,,,,
-Slimeball,,20,9,,102,330,+0.17,,+4,1.10,,,
-Spark Bolt,,5,2,,800,40,+0.05,,-1,,,,+5
-Spark Bolt With Trigger,,10,2,,800,40,+0.05,,,,,,+5
-Spark Bolt With Double Trigger,,15,12,,700,40,+0.07,,,,,,+5
-Spark Bolt With Timer,,10,2,,800,40,+0.05,,,,,,+5
-Spiral Shot,15,50,,,110,100,+0.33,,,,,,
-Spitter Bolt,,5,2,,500,25,-0.02,,+6,,,,
-Spitter Bolt With Timer,,10,2,,500,25,-0.02,,+6,,,,
-Large Spitter Bolt,,25,2,,700,30,-0.03,,+8,,,,
-Large Spitter Bolt With Timer,,30,2,,700,30,-0.03,,+8,,,,
-Giant Spitter Bolt,,40,2,,900,35,-0.07,,+9,,,,
-Giant Spitter Bolt With Timer,,45,2,,900,35,-0.07,,+9,,,,
-Summon Deercoy,10,50,,,,-1,+1.33,,,,,,
-Summon Egg,2,100,3,,,,,,,,,,
-Summon Explosive Box,15,40,40,,60,,,,,,,,
-Summon Large Explosive Box,15,40,60,,60,,,,,,,,
-Summon Hollow Egg,,30,3,,,,-0.20,,,,,,
-Summon Missile,20,60,10,,80,,,+0.50,,,,,
-Summon Rock Spirit,10,120,,1.1,230,60,+1.33,,,,,,
-Summon Tentacle,,20,,,8,60,+0.67,,,,,,
-Summon Tentacle With Timer,,20,,,8,60,+0.67,,,,,,
-Homebringer Teleport Bolt,,20,2,,800,8,,,-2,,,,
-Teleport Bolt,,40,2,,800,40,+0.05,,-2,,,,
-Return,,40,2,,,240,+0.05,,-2,,,,
-Swapper,,5,2,,800,40,+0.05,,-2,,,,+5
-Small Teleport Bolt,,20,2,,1350,8,,,-2,,,,
-Triplicate Bolt,,25,4,2.3,550,120,+0.13,,+14,,,,
-Unstable Crystal,15,20,30,2.9,265,-1,+0.50,,,0.75,,,
-Unstable Crystal With Trigger,15,20,30,2.9,265,-1,+0.50,,,0.75,,,
-Worm Launcher,10,150,,+20,250,,+1.33,+0.67,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-Horizontal Barrier,,70,,,,3,+0.08,,,,,,
-Vertical Barrier,,70,,,,3,+0.08,,,,,,
-Square Barrier,20,70,,,,3,+0.33,,,,,,
-Circle of Buoyancy,15,10,,,,,+0.25,,,,,,
-Circle of Stillness,15,50,,,,,+0.25,,,,,,
-Circle of Thunder,15,60,,,,,+0.25,,,,,,
-Circle of Displacement,15,30,,,,,+0.25,,,,,,
-Circle of Fervour,15,30,,,,,+0.25,,,,,,
-Circle of Shielding,10,20,,,,,+0.25,,,,,,
-Circle of Unstable Metamorphosis,10,20,,,,,+0.25,,,,,,
-Circle of Transmogrification,5,50,,,,,+0.25,,,,,,
-Circle of Vigour,2,80,,,,,+0.25,,,,,,
-Acid Cloud,4,120,,,,,+0.25,,,,,,
-Blood Cloud,3,60,,,,,+0.50,,,,,,
-Thundercloud,5,90,,,,,+0.50,,,,,,
-Oil Cloud,15,20,,,,,+0.25,,,,,,
-Rain Cloud,10,30,,,,600,+0.25,,,,,,
-Destruction,5,600,,,,,+1.67,+5.00,,,,,
-Explosion,,80,15,,,,+0.05,,,,,,
-Explosion of Brimstone,,10,30,,,,+0.05,,,,,,
-Explosion of Poison,,30,9,,,,+0.05,,,,,,
-Explosion of Spirits,,30,12,,,,+0.05,,,,,,
-Explosion of Thunder,,110,28,,,,+0.25,,,,,,
-Magical Explosion,,80,35,,,,+0.05,,,,,,
-Explosive Detonator,,50,30,,26,,,,,,,,
-Glittering Field,20,90,,,,600,+0.17,,,-1.00,,,
-Matosade,2,225,,,,,+1.67,+1.0,,,,,
-Meteorisade,2,225,,,,,+1.67,+1.0,,,,,
-Delayed Spellcast,,20,,,26,100,+0.17,,,,,,
-Projectile Transmutation Field,6,120,,,,,+0.25,,,,,,
-Projectile Gravity Field,3,120,,,,,+0.25,,,,,,
-Projectile Thunder Field,3,140,,,,,+0.25,,,,,,
-Random Static Projectile Spell,,20,,,,,,,,,,,
-Giga Black Hole,6,240,1,,,500,+1.33,,,,,,
-Omega Black Hole,6,500,,,,,+2.0,+1.67,,,,,
-Summon Friendly Fly,,120,1,45.8,100,1800,+1.33,+0.67,+24,,,,
-Summon Fly Swarm,,70,1,45.8,100,750,+1.00,+0.33,+6,,,,
-Summon Firebug Swarm,,80,1,45.8,100,850,+1.00,+0.33,+12,,,,
-Summon Wasp Swarm,,90,1,45.8,100,1100,+1.00,+0.33,+24,,,,
-Liquid Vacuum Field,20,40,,,,,+0.17,,,,,,
-Vacuum Field,20,50,,,,,+0.17,,,,,,
-Powder Vacuum Field,20,50,,,,,+0.17,,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-Energy Shield,,10,,,,,,,,,,,
-Energy Shield Sector,,10,,,,,,,,,,,
-Summon Tiny Ghost,,0,,,,,,,,,,,
-Electric Torch,,0,,,,,,,,,,,
-Torch,,0,,,,,,,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-All-Seeing Eye,10,100,,,,1000,,,,,,,
-Blood Magic,,-100,,,,,-0.33,-0.33,,,,,
-Long-Distance Cast,,0,2,,1800,4,-0.08,,,,,,
-Teleporting Cast,,100,,,26,2,+0.33,,+24,,,,
-Warp Cast,,20,,,100,5,+0.17,,-6,,,,
-Spells To Acid,,200,,,,,+1.67,+1.67,,,,,
-Spells To Black Holes,10,200,,,,,+1.67,+1.67,,,,,
-Spells To Death Crosses,15,80,,,,,+0.67,+0.67,,,,,
-Spells To Giga Sawblades,,100,,,,,+0.83,+0.83,,,,,
-Spells To Magic Missiles,10,100,,,,,+0.83,+0.83,,,,,
-Spells To Nukes,2,600,,,,,+1.67,+1.67,,,,,
-Summon Taikasauva,1,300,,,,,,,,,,,
-Summon Platform,20,30,,,,300,+0.67,,,,,,
-Summon Wall,20,40,,,,300,+0.67,,,,,,
-Blood to Power,,20,,,,,,,,,,,
-Gold To Power,,30,,,,,,,,,,,
-Wand Refresh,,20,,,,,,-0.42,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-Add Mana,,-30,,,,,+0.17,,,,,,
-Electric Arc,,15,,,,,,,,,,,
-Fire Arc,,15,,,,,,,,,,,
-Gunpowder Arc,,15,,,,,,,,,,,
-Poison Arc,,15,,,,,,,,,,,
-Octagonal Bolt Bundle,,100,12,,100,360,+0.33,,,,,,
-Downwards Bolt Bundle,,90,12,,100,360,+0.42,,,,,,
-Bubbly Bounce,,13,,,,,+0.13,,,,,+1,
-Plasma Beam Bounce,,40,,,,,+0.20,,,,,1,
-Remove Bounce,,0,,,,,,,,,,,
-Laser Bounce,,30,,,,,+0.20,,,,,+1,
-Larpa Bounce,,80,,,,,+0.53,,,,,+1,
-Bounce,,0,,,,,,,,,,+10,
-Explosive Bounce,,20,,,,,+0.42,,,,,+1,
-Chain Spell,,70,-5,,,,,,+10,,-30,,
-Concentrated Explosion,,40,-30,,,,+0.25,,,,,,
-Copy Trail,,150,,,,,+0.33,,,,,,
-Critical On Bloody Enemies,,10,,,,,,,,,,,
-Critical On Oiled Enemies,,10,,,,,,,,,,,
-Critical Plus,,5,,,,,,,,,,,+15
-Critical On Burning,,10,,,,,,,,,,,
-Critical On Wet (Water) Enemies,,10,,,,,,,,,,,
-Damage Field,,30,,,,,,,,,,,
-Bloodlust,,2,,,,,+0.13,,+6,,,,
-Light Shot,,5,-10,,,,-0.05,,-6,7.50,,,
-Random Damage,,15,,,,,+0.08,,,,,,
-Heavy Shot,,7,,,,,+0.17,,,0.30,,,
-Damage Plus,,5,,,,,+0.08,,,,,,
-Mana To Damage,20,0,,,,,+0.25,+0.17,,,,,
-Earthquake Shot,15,45,,,,,,,,,,,
-Freeze Charge,,10,,,,,,,,,,,
-Electric Charge,,8,,,,,,,,,,,
-Explosion On Drunk Enemies,,20,,,,,,,,,,,
-Giant Explosion On Drunk Enemies,20,200,,,,,,,,,,,
-Explosion On Slimy Enemies,,20,,,,,,,,,,,
-Giant Explosion On Slimy Enemies,20,200,,,,,,,,,,,
-Charm On Toxic Sludge,,70,,,,,,,,,,,
-Fizzle,,0,,,,,-0.17,,,1.20,,,
-Rainbow Glimmer,,0,,,,,-0.13,,,,,,
-Invisible Spell,,0,,,,,-0.13,,,,,,
-Blue Glimmer,,0,,,,,-0.13,,,,,,
-Green Glimmer,,0,,,,,-0.13,,,,,,
-Orange Glimmer,,0,,,,,-0.13,,,,,,
-Purple Glimmer,,0,,,,,-0.13,,,,,,
-Red Glimmer,,0,,,,,-0.13,,,,,,
-Yellow Glimmer,,0,,,,,-0.13,,,,,,
-Heavy Spread,,2,,,,,-0.12,-0.25,+720,,,,
-Knockback,,5,,,,,,,,,,,
-Chaos Larpa,,100,,,,,+0.25,,,,,,
-Downwards Larpa,,120,,,,,+0.25,,,,,,
-Larpa Explosion,30,90,,,,,+0.25,,,,,,
-Upwards Larpa,,120,,,,,+0.25,,,,,,
-Reduce Lifetime,,10,,,,,-0.25,,,,-42,,
-Nolla,,1,,,,,-0.25,,,,,,
-Increase Lifetime,,40,,,,,+0.22,,,,+75,,
-Light,,1,,,,,,,,,,,
-Necromancy,,20,,,,,+0.17,,,,,,
-Fireball Orbit,,40,,,,,,,,,,,
-Sawblade Orbit,,70,,,,,,,,,,,
-Nuke Orbit,3,250,,,,,,,,,,,
-Plasma Beam Orbit,,100,,,,,,,,,,,
-Orbit Larpa,,90,,,,,,,,,,,
-Linear Arc,,0,,,,,-0.07,,,,,,
-Horizontal Path,,0,,,,,-0.10,,,,,,
-Anti-Gravity,,1,,,,,,,,,,,
-Gravity,,1,,,,,,,,,,,
-Fly Upwards,,0,,,,,-0.05,,,,,,
-Fly Downwards,,0,,,,,-0.05,,,,,,
-Spiral Arc,,0,,,,,-0.10,,,,+50,,
-Phasing Arc,,2,,,,,-0.10,,,0.33,+80,,
-Orbiting Arc,,0,,,,,-0.10,,,,+25,,
-Chaotic Path,,0,,,,,,,,2.00,,,
-Ping-Pong Path,,0,,,,,,,,,+25,,
-Slithering Path,,0,,,,,,,,2.00,,,
-Short-range Homing,,40,,,,,,,,,,,
-Projectile Area Teleport,,60,,+6,,,+0.13,,,0.75,,,
-Aiming Arc,,30,,,,,,,,,,,
-Rotate Towards Foes,,40,,,,,,,,,,,
-Boomerang,,10,,,,,,,,,,,
-Accelerative Homing,,60,,,,,,,,,,,
-Auto-Aim,,25,,,,,,,,,,,
-Homing,,70,,,,,,,,,,,
-Personal Fireball Thrower,20,90,,,,,,,,,,,
-Personal Gravity Field,20,110,,,,,,,,,,,
-Personal Lightning Caster,20,90,,,,,,,,,,,
-Personal Tentacler,20,90,,,,,,,,,,,
-Petrify,,10,,,,,,,,,,,
-Piercing Shot,,140,,,,,,,,,,,
-Plasma Beam Enhancer,,10,,,,,,,,,,,
-Projectile Energy Shield,,5,,,,,,,,0.40,,,
-Quantum Split,,10,,,,,+0.08,,,,,,
-Random Modifier Spell,,20,,,,,,,,,,,
-Recoil,,5,,,,,,,,,,,
-Recoil Damper,,5,,,,,,,,,,,
-Reduce Recharge Time,,12,,,,,-0.17,-0.33,,,,,
-Reduce Spread,,1,,,,,,,-60,,,,
-Remove Explosion,,0,-30,,,,-0.25,,,,,,
-Slow But Steady,,0,,,,,1.50,,,,,,
-Accelerating Shot,,20,,,,,+0.13,,,0.32,,,
-Decelerating Shot,,10,,,,,-0.13,,,1.68,,,
-Speed Up,,3,,,,,,,,2.50,,,
-Explosive Projectile,,30,+15,,,,+0.67,,,0.75,,,
-Matter Eater,10,120,,,,,,,,,,,
-Avoiding Arc,,0,,,,,+0.17,,,,,,
-Drilling Shot,,160,,,,,+0.83,+0.67,,,,,
-Firecrackers,,15,,,,,,,,,,,
-Floating Arc,,0,,,,,+0.17,,,,,,
-Fireball Thrower,16,110,,,,,,,,,,,
-Plasma Beam Thrower,16,110,,,,,,,,,,,
-Lightning Thrower,16,110,,,,,,,,,,,
-Tentacler,16,110,,,,,,,,,,,
-Two-Way Fireball Thrower,20,130,,,,,,,,,,,
-Spells To Power,,110,,,,,+0.33,,,,,,
-Essence to Power,,110,,,,,+0.33,,,,,,
-Water Trail,,10,,,,,,,,,,,
-Poison Trail,,10,,,,,,,,,,,
-Oil Trail,,10,,,,,,,,,,,
-Fire Trail,,10,,,,,,,,,,,
-Acid Trail,,15,,,,,,,,,,,
-Burning Trail,,5,,,,,,,,,,,
-Rainbow Trail,,0,,,,,,,,,,,
-Gunpowder Trail,,10,,,,,,,,,,,
-Toxic Sludge To Acid,,50,,,,,+0.17,,,,,,
-Chaotic Transmutation,8,80,,,,,+0.33,,,,,,
-Ground To Sand,8,70,,,,,+1.00,,,,,,
-Liquid Detonation,,40,,,,,+0.33,,,,,,
-Blood To Acid,,30,,,,,+0.17,,,,,,
-Lava To Blood,,30,,,,,+0.17,,,,,,
-Water To Poison,,30,,,,,+0.17,,,,,,
-Weakening Curse - Electricity,,50,,,,,,,,,,,
-Weakening Curse - Explosives,,50,,,,,,,,,,,
-Weakening Curse - Melee,,50,,,,,,,,,,,
-Weakening Curse - Projectiles,,50,,,,,,,,,,,
-Venomous Curse,,30,,,,,,,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-Chunk Of Soil,,5,15,,,1,,,,,,,
-Circle Of Acid,4,40,,,,260,+0.33,,,,,,
-Circle Of Fire,15,20,,,,260,+0.33,,,,,,
-Circle Of Oil,15,20,,,,260,+0.33,,,,,,
-Circle Of Water,15,20,,,,260,+0.33,,,,,,
-Cement,,0,,,129,360,-0.25,-0.17,,,,,
-Water,,0,,,129,360,-0.25,-0.17,,,,,
-Blood,250,0,,,129,360,-0.25,-0.17,,,,,
-Oil,,0,,,129,360,-0.25,-0.17,,,,,
-Acid,,0,,,129,360,-0.25,-0.17,,,,,
-Sea Of Acid,3,140,,,,300,+0.25,,,,,,
-Sea Of Alcohol,3,140,,,,300,+0.25,,,,,,
-Sea Of Flammable Gas,3,140,,,,300,+0.25,,,,,,
-Sea Of Lava,3,140,,,,300,+0.25,,,,,,
-Sea Of Oil,3,140,,,,300,+0.25,,,,,,
-Sea Of Water,3,140,,,,300,+0.25,,,,,,
-Touch Of Blood,3,270,,,,4,,,,,,,
-Touch Of Gold,1,300,,,,4,,,,,,,
-Touch Of Oil,5,260,,,,4,,,,,,,
-Touch Of Smoke,5,230,,,,4,,,,,,,
-Touch Of Spirits,5,240,,,,4,,,,,,,
-Touch Of Water,5,280,,,,4,,,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-Double Spell,,0,,,,,,,,,,,
-Triple Spell,,2,,,,,,,,,,,
-Quadruple Spell,,5,,,,,,,,,,,
-Octuple Spell,,30,,,,,,,,,,,
-Myriad Spell,30,50,,,,,,,,,,,
-Double Scatter Spell,,0,,,,,,,+10,,,,
-Triple Scatter Spell,,1,,,,,,,+20,,,,
-Quadruple Scatter Spell,,2,,,,,,,+40,,,,
-Formation - Behind Your Back,,0,,,,,,,,,,,
-Formation - Above And Below,,3,,,,,,,,,,,
-Formation - Pentagon,,5,,,,,,,,,,,
-Formation - Hexagon,,6,,,,,,,,,,,
-Formation - Bifurcated,,2,,,,,,,,,,,
-Formation - Trifurcated,,3,,,,,,,,,,,
-Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%)
-Add Trigger,,10,,,,,,,,,,,
-Add Timer,,20,,,,,,,,,,,
-Add Expiration Trigger,,20,,,,,,,,,,,
-Divide By 2,,35,,,,,+0.33,,,,,,
-Divide By 3,,50,,,,,+0.58,,,,,,
-Divide By 4,,70,,,,,+0.83,,,,,,
-Divide By 10,5,200,,,,,+1.33,+0.33,,,,,
-Alpha,,30,,,,,+0.25,,,,,,
-Zeta,,10,,,,,,,,,,,
-Tau,,80,,,,,+0.58,,,,,,
-Gamma,,30,,,,,+0.25,,,,,,
-Mu,,120,,,,,+0.83,,,,,,
-Phi,,120,,,,,+0.83,,,,,,
-Sigma,,120,,,,,+0.50,,,,,,
-Omega,,300,,,,,+0.83,,,,,,
-Kantele - Note A,,1,,,350,2,+0.25,,,,,,
-Kantele - Note D,,1,,,350,2,+0.25,,,,,,
-Kantele - Note D+,,1,,,350,2,+0.25,,,,,,
-Kantele - Note E,,1,,,350,2,+0.25,,,,,,
-Kantele - Note G,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note A,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note B,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note C,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note D,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note E,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note F,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note G+,,1,,,350,2,+0.25,,,,,,
-Ocarina - Note A2,,1,,,350,2,+0.25,,,,,,
-Random Spell,,5,,,,,,,,,,,
-Copy Random Spell,,20,,,,,,,,,,,
-Copy Random Spell Thrice,,50,,,,,,,,,,,
-Copy Three Random Spells,,40,,,,,,,,,,,
-Requirement - Projectile Spells,,0,,,,,,,,,,,
-Requirement - Low Health,,0,,,,,,,,,,,
-Requirement - Enemies,,0,,,,,,,,,,,
-Requirement - Every Other,,0,,,,,,,,,,,
-Requirement - Otherwise,,0,,,,,,,,,,,
-Requirement - Endpoint,,0,,,,,,,,,,,
-Spell Duplication,,250,,,,,+0.33,+0.33,,,,,
-Summon Portal,7,50,,,,,+1.33,,,,,,
-The End Of Everything,1,600,,,,,+1.67,+1.67,,,,,
+Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%),Damage (Projectile), Damage (Explosion), Damage (Melee), Damage (Electric), Damage (Fire), Damage (Slice), Damage (Ice), Damage (Drill), Has Piercing (subject to review)
+???,,5,2,5.7,450,,-0.05,,+2,,,,+1,4,40,,,,,,,False
+Acid Ball,20,20,9,,99,330,+0.17,,,,,,,6,,,,,,,,False
+Arrow,,15,,0.6,600,750,+0.17,,-20,,,,,,,,,,5,,,False
+Black Hole,3,180,1,,40,120,+1.33,,,,,,,,,,,,,,,False
+Black Hole with Death Trigger,3,200,1,,40,120,+1.50,,,,,,,,,,,,,,,False
+Bomb,3,25,60,,60,180,+1.67,,,,,,,,500,,,,,,,False
+Bomb Cart,6,75,40,,30,420,+1.00,,,,,,,,400,,,,,,,False
+Bouncing Burst,,5,,0.6,700,750,-0.03,,-1,,,,,3,,,,,,,,False
+Bubble Spark,,5,4,22.9,250,100,-0.08,,,,,,,5,,,,,,,,False
+Bubble Spark With Trigger,,16,4,22.9,250,100,-0.08,,,,,,,5,,,,,,,,False
+Burst Of Air,,5,,,400,40,+0.05,,-2,,,,,5.75,,,,,,,,False
+Chain Bolt,,80,,,40,44,+0.75,,+14,,,,,25,,,,,,,,False
+Chainsaw,,1,3,,,1,0.00,-0.17,+6,,,,,,,,,,12.75,,,False
+Cursed Sphere,,40,1,8.6,1,120,+0.33,,,,,,,15,,,,,,,,False
+Death Cross,,80,25,,,68,+0.67,,,,,,,,300,,,,,,,False
+Giga Death Cross,8,150,35,,,50,+1.17,,,,,,,,300,,,,,,,False
+Plasma Beam Cross,,80,,,40,,+0.25,,,,,,,20,,,,,,,,True
+Digging Blast,,0,7,,,2,+0.02,-0.17,,,,,,,,,,,,,3,False
+Digging Bolt,,0,6,,,2,+0.02,-0.17,,,,,,,,,,,,,8,False
+Dormant Crystal,20,20,30,2.9,265,-1,+0.50,,,0.75,,,,,550,,,,,,,False
+Dormant Crystal With Trigger,20,20,30,2.9,265,-1,+0.50,,,0.75,,,,,550,,,,,,,False
+Dropper Bolt,35,80,16,2.9,65,500,+0.67,,,,,,,95,390,,,,,,,False
+Dynamite,16,50,28,,800,50,+0.83,,+6,,,,,,250,,,,,,,False
+Earthquake,3,240,2,,110,30,,,,,,,,,,,,,,,,False
+Eldritch Portal,5,140,,,,800,+0.50,,,,,,,,,,,,,,,False
+Energy Orb,,30,15,1.7,210,50,+0.10,,+4,,,,,11.25,18,,,,,,,False
+Energy Orb With A Trigger,,50,15,1.7,210,50,+0.42,,+10,,,,,11.25,18,,,,,,,False
+Energy Orb With A Timer,,50,15,1.7,210,50,+0.10,,+4,,,,,11.25,18,,,,,,,False
+Energy Sphere,,20,2,0.6,450,750,+0.17,,,,,,,5,,,,,5,,,False
+Energy Sphere With Timer,,50,2,0.6,450,750,+0.17,,,,,,,5,,,,,5,,,False
+Expanding Sphere,,70,,+8.6,50,,+0.50,,,,,,,75,,,,,,,,False
+Fireball,15,70,15,,165,60,+0.83,,+4,,,,,,200,,,6.25,,,,False
+Firebolt,25,50,7,2.9,265,500,+0.50,,,,,,,45,190,,,,,,,False
+Firebolt With Trigger,25,50,7,2.9,265,500,+0.50,,,,,,,45,190,,,,,,,False
+Large Firebolt,20,90,25,2.9,265,500,+0.83,,,,,,,45,190,,,,,,,False
+Giant Firebolt,20,90,40,2.9,265,500,+1.33,,,,,,,45,190,,,,,,,False
+Odd Firebolt,25,50,7,2.9,265,500,+0.50,,,,,,,45,190,,,,,,,False
+Firebomb,,10,7,2.9,130,70,,,,,,,,,,,,10,,,,False
+Fireworks!,25,70,15,,75,30,+1.00,,,,,,,25,120,,,,,,,False
+Flamethrower,60,20,8,,165,80,,,+4,,,,,,50,,,11.25,,,,False
+Flock Of Ducks,20,100,25,2.9,265,,+1.0,+0.33,,,,,,40,240,,,30,,,,False
+Freezing Gaze,20,45,,,220,25,+0.33,,,,,,,,,,,,,10 (x 12),,False
+Glitter Bomb,16,70,16,,800,50,+0.83,,+12,,,,,,100,,,,,,,False
+Glowing Lance,,30,1,0.2,350,300,+0.33,,-20,,,,,35,,,,,,,,False
+Glue Ball,,25,,8.6,325,,+0.50,,+5,,,,,3,,,,,,,,False
+Healing Bolt,20,15,2,0.6,625,60,+0.07,,+2,,,,,,,,,,,,,False
+Holy Bomb,2,300,180,,,170,+0.67,+1.33,,,,,,,800,,,,,,,False
+Giga Holy Bomb,2,600,320,,60,,+2.0,+2.67,,,,,,,2000,,,,,,,False
+Iceball,15,90,15,,165,60,1.33,,+8,,,,,,200,,,,,6,,False
+Infestation,,40,,360,550,600,-0.03,,+25,,,,,1.25 x 6,,,,,,,,False
+Concentrated Light,,30,3,,140,30,-0.37,,,,,,,9.75,22,,,,,,,False
+Intense Concentrated Light,,110,,2.9,1,32,+1.50,,,,,,,125 (x 5),,,,,,,,False
+Lightning Bolt,,70,35,,,2,+0.83,,,,,,,,500,,25,,,,,False
+Ball Lightning,,70,15,45.8,800,30,+0.83,,,,,,,,25 (x 3),,12.5 (x 3),,,,,False
+Thunder Charge,3,120,50,,110,100,+2.00,,,,,,,,180,,37.5,,,,,False
+Luminous Drill,,10,,,1400,2,-0.58,-0.17,,,,,,10,,,,,,,,False
+Luminous Drill With Timer,,30,,,1400,2,-0.58,-0.17,,,,,,10,,,,,,,,False
+Magic Arrow,,20,2,0.6,625,40,+0.07,,+2,,,,+5,10,,,,,,,,False
+Magic Arrow With Trigger,,35,2,0.6,625,40,+0.07,,+2,,,,+5,10,,,,,,,,False
+Magic Arrow With Timer,,35,2,0.6,625,40,+0.07,,+2,,,,+5,10,,,,,,,,False
+Magic Bolt,,30,6,2.9,675,30,+0.12,,+5,,,,+5,12.75,,,,,,,,False
+Magic Bolt With Trigger,,40,6,2.9,675,30,+0.12,,+5,,,,+5,12.75,,,,,,,,False
+Magic Bolt With Timer,,40,6,2.9,675,30,+0.12,,+5,,,,+5,12.75,,,,,,,,False
+Magic Guard,,40,,,,5,+0.33,,,,,,,,,,,,,,,False
+Big Magic Guard,,60,,,,5,+0.50,,,,,,,,,,,,,,,False
+Magic Missile,10,70,15,,85,360,+1.00,,,,,,,75,420,,,,,,,False
+Large Magic Missile,8,90,32,,85,360,+1.50,,,,,,,75,420,,,,,,,False
+Giant Magic Missile,6,120,42,,85,360,+2.00,,,,,,,75,420,,,,,,,False
+Meteor,10,150,45,,350,200,,,,,,,,,500,,,56.25,,,,False
+Blood Mist,10,40,,,,500,+0.17,,,,,,,,,,,,,,,False
+Mist Of Spirits,,40,,,,100,+0.17,,,,,,,,,,,,,,,False
+Slime Mist,,40,,,,500,+0.17,,,,,,,,,,,,,,,False
+Toxic Mist,,40,,,,500,+0.17,,,,,,,,,,,,,,,False
+Nuke,1,200,250,0.6,300,360,+0.33,+10.00,,0.75,,,,75,1000,,,,,,,False
+Giga Nuke,1,500,400,0.6,900,,+0.83,+13.33,,0.50,,,,75,1000,,,,,,,False
+Path Of Dark Flame,60,90,1,,250,100,+0.33,,,,,,,20,,,,,,,,False
+Pinpoint Of Light,,65,20,1.7,850,90,+0.67,,+6,,,,,5,40,,,,,,,False
+Plasma Beam,,60,,,40,,+0.10,,,,,,,20,,,,,,,,True
+Plasma Cutter,,40,,,40,,,+0.17,,,,,,20,,,,,,,,True
+Pollen,,10,7,0.6,200,,+0.03,,+20,,,,,5,20,,,,,,,False
+Prickly Spore Pod,,20,,2.9,225,100,+0.67,,,,,,,2.5,,,,,,,,True
+Propane Tank,10,75,60,,,-1,+1.67,,,,,,,,1300,,,,,,,False
+Random Projectile Spell,,20,,,,,,,,,,,,,,,,,,,,False
+Chaos Magic,30,120,,,,,+0.67,,,,,,,,,,,,,,,False
+Rock,3,100,,,,-1,,,,,,,,,,,,,,,,False
+Disc Projectile,,20,,0.6,400,750,+0.17,,+2,,,,,,,,,,20,,,False
+Giga Disc Projectile,,38,,0.6,250,300,+0.33,,+3,,,,,,,,,,62.5,,,False
+Summon Omega Sawblade,,70,,0.6,150,500,+0.67,,+6,,,,,,,,,,38,,,False
+Slimeball,,20,9,,102,330,+0.17,,+4,1.10,,,,6.25,30,,,,,,,False
+Spark Bolt,,5,2,,800,40,+0.05,,-1,,,,+5,3,,,,,,,,False
+Spark Bolt With Trigger,,10,2,,800,40,+0.05,,,,,,+5,3,,,,,,,,False
+Spark Bolt With Double Trigger,,15,12,,700,40,+0.07,,,,,,+5,3,,,,,,,,False
+Spark Bolt With Timer,,10,2,,800,40,+0.05,,,,,,+5,3,,,,,,,,False
+Spiral Shot,15,50,,,110,100,+0.33,,,,,,,5,,,,,,,,False
+Spitter Bolt,,5,2,,500,25,-0.02,,+6,,,,,7.5,,,,,,,,False
+Spitter Bolt With Timer,,10,2,,500,25,-0.02,,+6,,,,,7.5,,,,,,,,False
+Large Spitter Bolt,,25,2,,700,30,-0.03,,+8,,,,,7.5,,,,,,,,False
+Large Spitter Bolt With Timer,,30,2,,700,30,-0.03,,+8,,,,,7.5,,,,,,,,False
+Giant Spitter Bolt,,40,2,,900,35,-0.07,,+9,,,,,7.5,,,,,,,,False
+Giant Spitter Bolt With Timer,,45,2,,900,35,-0.07,,+9,,,,,7.5,,,,,,,,False
+Summon Deercoy,10,50,,,,-1,+1.33,,,,,,,,400,,,,,,,False
+Summon Egg,2,100,3,,,,,,,,,,,,,,,,,,,False
+Summon Explosive Box,15,40,40,,60,,,,,,,,,,500,,,,,,,False
+Summon Large Explosive Box,15,40,60,,60,,,,,,,,,,500,,,,,,,False
+Summon Hollow Egg,,30,3,,,,-0.20,,,,,,,,20,,,,,,,False
+Summon Missile,20,60,10,,80,,,+0.50,,,,,,50,100,,,,,,,False
+Summon Rock Spirit,10,120,,1.1,230,60,+1.33,,,,,,,,,,,,,,,False
+Summon Tentacle,,20,,,8,60,+0.67,,,,,,,,,20,,,,,,False
+Summon Tentacle With Timer,,20,,,8,60,+0.67,,,,,,,,,20,,,,,,False
+Homebringer Teleport Bolt,,20,2,,800,8,,,-2,,,,,,,,,,,,,False
+Teleport Bolt,,40,2,,800,40,+0.05,,-2,,,,,,,,,,,,,False
+Return,,40,2,,,240,+0.05,,-2,,,,,,,,,,,,,False
+Swapper,,5,2,,800,40,+0.05,,-2,,,,+5,,,,,,,,,False
+Small Teleport Bolt,,20,2,,1350,8,,,-2,,,,,,,,,,,,,False
+Triplicate Bolt,,25,4,2.3,550,120,+0.13,,+14,,,,,4.625 x 3,,,,,,,,False
+Unstable Crystal,15,20,30,2.9,265,-1,+0.50,,,0.75,,,,,400,,,,,,,False
+Unstable Crystal With Trigger,15,20,30,2.9,265,-1,+0.50,,,0.75,,,,,400,,,,,,,False
+Worm Launcher,10,150,,+20,250,,+1.33,+0.67,,,,,,,,,,,,,,False
+Horizontal Barrier,,70,,,,3,+0.08,,,,,,,,,3,,,,,,False
+Vertical Barrier,,70,,,,3,+0.08,,,,,,,,,,,,,,,False
+Square Barrier,20,70,,,,3,+0.33,,,,,,,,,,,,,,,False
+Circle of Buoyancy,15,10,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Stillness,15,50,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Thunder,15,60,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Displacement,15,30,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Fervour,15,30,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Shielding,10,20,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Unstable Metamorphosis,10,20,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Transmogrification,5,50,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Vigour,2,80,,,,,+0.25,,,,,,,,,,,,,,,False
+Acid Cloud,4,120,,,,,+0.25,,,,,,,,,,,,,,,False
+Blood Cloud,3,60,,,,,+0.50,,,,,,,,,,,,,,,False
+Thundercloud,5,90,,,,,+0.50,,,,,,,,,,,,,,,False
+Oil Cloud,15,20,,,,,+0.25,,,,,,,,,,,,,,,False
+Rain Cloud,10,30,,,,600,+0.25,,,,,,,,,,,,,,,False
+Destruction,5,600,,,,,+1.67,+5.00,,,,,,,,,,,,,,False
+Explosion,,80,15,,,,+0.05,,,,,,,,275,,,,,,,False
+Explosion of Brimstone,,10,30,,,,+0.05,,,,,,,,30,,,,,,,False
+Explosion of Poison,,30,9,,,,+0.05,,,,,,,,30,,,,,,,False
+Explosion of Spirits,,30,12,,,,+0.05,,,,,,,,30,,,,,,,False
+Explosion of Thunder,,110,28,,,,+0.25,,,,,,,,180,,,,,,,False
+Magical Explosion,,80,35,,,,+0.05,,,,,,,,375,,,,,,,False
+Explosive Detonator,,50,30,,26,,,,,,,,,,,,,,,,,False
+Glittering Field,20,90,,,,600,+0.17,,,-1.00,,,,,,,,,,,,False
+Matosade,2,225,,,,,+1.67,+1.0,,,,,,,,,,,,,,False
+Meteorisade,2,225,,,,,+1.67,+1.0,,,,,,,,,,,,,,False
+Delayed Spellcast,,20,,,26,100,+0.17,,,,,,,,,,,,,,,False
+Projectile Transmutation Field,6,120,,,,,+0.25,,,,,,,,,,,,,,,False
+Projectile Gravity Field,3,120,,,,,+0.25,,,,,,,,,,,,,,,False
+Projectile Thunder Field,3,140,,,,,+0.25,,,,,,,,,,,,,,,False
+Random Static Projectile Spell,,20,,,,,,,,,,,,,,,,,,,,False
+Giga Black Hole,6,240,1,,,500,+1.33,,,,,,,,,,,,,,,False
+Omega Black Hole,6,500,,,,,+2.0,+1.67,,,,,,,,,,,,,,False
+Summon Friendly Fly,,120,1,45.8,100,1800,+1.33,+0.67,+24,,,,,,,,,,,,,False
+Summon Fly Swarm,,70,1,45.8,100,750,+1.00,+0.33,+6,,,,,,,3.5 (x 5),,,,,,False
+Summon Firebug Swarm,,80,1,45.8,100,850,+1.00,+0.33,+12,,,,,,,3.5 (x 5),,,,,,False
+Summon Wasp Swarm,,90,1,45.8,100,1100,+1.00,+0.33,+24,,,,,,,3.5 (x 5),,,,,,False
+Liquid Vacuum Field,20,40,,,,,+0.17,,,,,,,,,,,,,,,False
+Vacuum Field,20,50,,,,,+0.17,,,,,,,,,,,,,,,False
+Powder Vacuum Field,20,50,,,,,+0.17,,,,,,,,,,,,,,,False
+Energy Shield,,10,,,,,,,,,,,,,,,,,,,,False
+Energy Shield Sector,,10,,,,,,,,,,,,,,,,,,,,False
+Summon Tiny Ghost,,0,,,,,,,,,,,,,,,,,,,,False
+Electric Torch,,0,,,,,,,,,,,,,,,,,,,,False
+Torch,,0,,,,,,,,,,,,,,,,,,,,False
+All-Seeing Eye,10,100,,,,1000,,,,,,,,,,,,,,,,False
+Blood Magic,,-100,,,,,-0.33,-0.33,,,,,,,,,,,,,,False
+Long-Distance Cast,,0,2,,1800,4,-0.08,,,,,,,,,,,,,,,False
+Teleporting Cast,,100,,,26,2,+0.33,,+24,,,,,,,,,,,,,False
+Warp Cast,,20,,,100,5,+0.17,,-6,,,,,,,,,,,,,False
+Spells To Acid,,200,,,,,+1.67,+1.67,,,,,,,,,,,,,,False
+Spells To Black Holes,10,200,,,,,+1.67,+1.67,,,,,,,,,,,,,,False
+Spells To Death Crosses,15,80,,,,,+0.67,+0.67,,,,,,,,,,,,,,False
+Spells To Giga Sawblades,,100,,,,,+0.83,+0.83,,,,,,,,,,,,,,False
+Spells To Magic Missiles,10,100,,,,,+0.83,+0.83,,,,,,,,,,,,,,False
+Spells To Nukes,2,600,,,,,+1.67,+1.67,,,,,,,,,,,,,,False
+Summon Taikasauva,1,300,,,,,,,,,,,,,,,,,,,,False
+Summon Platform,20,30,,,,300,+0.67,,,,,,,,,,,,,,,False
+Summon Wall,20,40,,,,300,+0.67,,,,,,,,,,,,,,,False
+Blood to Power,,20,,,,,,,,,,,,,,,,,,,,False
+Gold To Power,,30,,,,,,,,,,,,,,,,,,,,False
+Wand Refresh,,20,,,,,,-0.42,,,,,,,,,,,,,,False
+Add Mana,,-30,,,,,+0.17,,,,,,,,,,,,,,,False
+Electric Arc,,15,,,,,,,,,,,,,,,,,,,,False
+Fire Arc,,15,,,,,,,,,,,,,,,,,,,,False
+Gunpowder Arc,,15,,,,,,,,,,,,,,,,,,,,False
+Poison Arc,,15,,,,,,,,,,,,,,,,,,,,False
+Octagonal Bolt Bundle,,100,12,,100,360,+0.33,,,,,,,33,140,,,,,,,False
+Downwards Bolt Bundle,,90,12,,100,360,+0.42,,,,,,,33,140,,,,,,,False
+Bubbly Bounce,,13,,,,,+0.13,,,,,+1,,,,,,,,,,False
+Plasma Beam Bounce,,40,,,,,+0.20,,,,,1,,,,,,,,,,False
+Remove Bounce,,0,,,,,,,,,,,,,,,,,,,,False
+Laser Bounce,,30,,,,,+0.20,,,,,+1,,,,,,,,,,False
+Larpa Bounce,,80,,,,,+0.53,,,,,+1,,,,,,,,,,False
+Bounce,,0,,,,,,,,,,+10,,,,,,,,,,False
+Explosive Bounce,,20,,,,,+0.42,,,,,+1,,,,,,,,,,False
+Chain Spell,,70,-5,,,,,,+10,,-30,,,,,,,,,,,False
+Concentrated Explosion,,40,-30,,,,+0.25,,,,,,,-5,20,,,,,,,False
+Copy Trail,,150,,,,,+0.33,,,,,,,,,,,,,,,False
+Critical On Bloody Enemies,,10,,,,,,,,,,,,,,,,,,,,False
+Critical On Oiled Enemies,,10,,,,,,,,,,,,,,,,,,,,False
+Critical Plus,,5,,,,,,,,,,,+15,,,,,,,,,False
+Critical On Burning,,10,,,,,,,,,,,,,,,,,,,,False
+Critical On Wet (Water) Enemies,,10,,,,,,,,,,,,,,,,,,,,False
+Damage Field,,30,,,,,,,,,,,,,,,,,,,,False
+Bloodlust,,2,,,,,+0.13,,+6,,,,,33,,,,,,,,False
+Light Shot,,5,-10,,,,-0.05,,-6,7.50,,,,-25,,,,,,,,False
+Random Damage,,15,,,,,+0.08,,,,,,,,,,,,,,,False
+Heavy Shot,,7,,,,,+0.17,,,0.30,,,,+43.75,,,,,,,,False
+Damage Plus,,5,,,,,+0.08,,,,,,,+10,,,,,,,,False
+Mana To Damage,20,0,,,,,+0.25,+0.17,,,,,,,,,,,,,,False
+Earthquake Shot,15,45,,,,,,,,,,,,,,,,,,,,False
+Freeze Charge,,10,,,,,,,,,,,,+5,,,,,,,,False
+Electric Charge,,8,,,,,,,,,,,,,,,+3,,,,,False
+Explosion On Drunk Enemies,,20,,,,,,,,,,,,,,,,,,,,False
+Giant Explosion On Drunk Enemies,20,200,,,,,,,,,,,,,,,,,,,,False
+Explosion On Slimy Enemies,,20,,,,,,,,,,,,,,,,,,,,False
+Giant Explosion On Slimy Enemies,20,200,,,,,,,,,,,,,,,,,,,,False
+Charm On Toxic Sludge,,70,,,,,,,,,,,,,,,,,,,,False
+Fizzle,,0,,,,,-0.17,,,1.20,,,,,,,,,,,,False
+Rainbow Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Invisible Spell,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Blue Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Green Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Orange Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Purple Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Red Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Yellow Glimmer,,0,,,,,-0.13,,,,,,,,,,,,,,,False
+Heavy Spread,,2,,,,,-0.12,-0.25,+720,,,,,,,,,,,,,False
+Knockback,,5,,,,,,,,,,,,,,,,,,,,False
+Chaos Larpa,,100,,,,,+0.25,,,,,,,,,,,,,,,False
+Downwards Larpa,,120,,,,,+0.25,,,,,,,,,,,,,,,False
+Larpa Explosion,30,90,,,,,+0.25,,,,,,,,,,,,,,,False
+Upwards Larpa,,120,,,,,+0.25,,,,,,,,,,,,,,,False
+Reduce Lifetime,,10,,,,,-0.25,,,,-42,,,,,,,,,,,False
+Nolla,,1,,,,,-0.25,,,,,,,,,,,,,,,False
+Increase Lifetime,,40,,,,,+0.22,,,,+75,,,,,,,,,,,False
+Light,,1,,,,,,,,,,,,,,,,,,,,False
+Necromancy,,20,,,,,+0.17,,,,,,,,,,,,,,,False
+Fireball Orbit,,40,,,,,,,,,,,,,,,,,,,,False
+Sawblade Orbit,,70,,,,,,,,,,,,,,,,,,,,False
+Nuke Orbit,3,250,,,,,,,,,,,,,,,,,,,,False
+Plasma Beam Orbit,,100,,,,,,,,,,,,,,,,,,,,False
+Orbit Larpa,,90,,,,,,,,,,,,,,,,,,,,False
+Linear Arc,,0,,,,,-0.07,,,,,,,+5,,,,,,,,False
+Horizontal Path,,0,,,,,-0.10,,,,,,,,,,,,,,,False
+Anti-Gravity,,1,,,,,,,,,,,,+7.5,,,,,,,,False
+Gravity,,1,,,,,,,,,,,,,,,,,,,,False
+Fly Upwards,,0,,,,,-0.05,,,,,,,,,,,,,,,False
+Fly Downwards,,0,,,,,-0.05,,,,,,,,,,,,,,,False
+Spiral Arc,,0,,,,,-0.10,,,,+50,,,+2.5,,,,,,,,False
+Phasing Arc,,2,,,,,-0.10,,,0.33,+80,,,,,,,,,,,False
+Orbiting Arc,,0,,,,,-0.10,,,,+25,,,+2.5,,,,,,,,False
+Chaotic Path,,0,,,,,,,,2.00,,,,,,,,,,,,False
+Ping-Pong Path,,0,,,,,,,,,+25,,,,,,,,,,,False
+Slithering Path,,0,,,,,,,,2.00,,,,,,,,,,,,False
+Short-range Homing,,40,,,,,,,,,,,,,,,,,,,,False
+Projectile Area Teleport,,60,,+6,,,+0.13,,,0.75,,,,,,,,,,,,True
+Aiming Arc,,30,,,,,,,,,,,,,,,,,,,,False
+Rotate Towards Foes,,40,,,,,,,,,,,,,,,,,,,,False
+Boomerang,,10,,,,,,,,,,,,,,,,,,,,False
+Accelerative Homing,,60,,,,,,,,,,,,,,,,,,,,False
+Auto-Aim,,25,,,,,,,,,,,,,,,,,,,,False
+Homing,,70,,,,,,,,,,,,,,,,,,,,False
+Personal Fireball Thrower,20,90,,,,,,,,,,,,,,,,,,,,False
+Personal Gravity Field,20,110,,,,,,,,,,,,,,,,,,,,False
+Personal Lightning Caster,20,90,,,,,,,,,,,,,,,,,,,,False
+Personal Tentacler,20,90,,,,,,,,,,,,,,,,,,,,False
+Petrify,,10,,,,,,,,,,,,,,,,,,,,False
+Piercing Shot,,140,,,,,,,,,,,,-15,,,,,,,,False
+Plasma Beam Enhancer,,10,,,,,,,,,,,,,,,,,,,,False
+Projectile Energy Shield,,5,,,,,,,,0.40,,,,,,,,,,,,False
+Quantum Split,,10,,,,,+0.08,,,,,,,,,,,,,,,False
+Random Modifier Spell,,20,,,,,,,,,,,,,,,,,,,,False
+Recoil,,5,,,,,,,,,,,,,,,,,,,,False
+Recoil Damper,,5,,,,,,,,,,,,,,,,,,,,False
+Reduce Recharge Time,,12,,,,,-0.17,-0.33,,,,,,,,,,,,,,False
+Reduce Spread,,1,,,,,,,-60,,,,,,,,,,,,,False
+Remove Explosion,,0,-30,,,,-0.25,,,,,,,,-21,,,,,,,False
+Slow But Steady,,0,,,,,1.50,,,,,,,,,,,,,,,False
+Accelerating Shot,,20,,,,,+0.13,,,0.32,,,,,,,,,,,,False
+Decelerating Shot,,10,,,,,-0.13,,,1.68,,,,,,,,,,,,False
+Speed Up,,3,,,,,,,,2.50,,,,,,,,,,,,False
+Explosive Projectile,,30,+15,,,,+0.67,,,0.75,,,,,+5,,,,,,,False
+Matter Eater,10,120,,,,,,,,,,,,,,,,,,,,False
+Avoiding Arc,,0,,,,,+0.17,,,,,,,,,,,,,,,False
+Drilling Shot,,160,,,,,+0.83,+0.67,,,,,,,,,,,,,,False
+Firecrackers,,15,,,,,,,,,,,,,,,,,,,,False
+Floating Arc,,0,,,,,+0.17,,,,,,,,,,,,,,,False
+Fireball Thrower,16,110,,,,,,,,,,,,,,,,,,,,False
+Plasma Beam Thrower,16,110,,,,,,,,,,,,,,,,,,,,False
+Lightning Thrower,16,110,,,,,,,,,,,,,,,,,,,,False
+Tentacler,16,110,,,,,,,,,,,,,,,,,,,,False
+Two-Way Fireball Thrower,20,130,,,,,,,,,,,,,,,,,,,,False
+Spells To Power,,110,,,,,+0.33,,,,,,,,,,,,,,,False
+Essence to Power,,110,,,,,+0.33,,,,,,,,,,,,,,,False
+Water Trail,,10,,,,,,,,,,,,,,,,,,,,False
+Poison Trail,,10,,,,,,,,,,,,,,,,,,,,False
+Oil Trail,,10,,,,,,,,,,,,,,,,,,,,False
+Fire Trail,,10,,,,,,,,,,,,,,,,,,,,False
+Acid Trail,,15,,,,,,,,,,,,,,,,,,,,False
+Burning Trail,,5,,,,,,,,,,,,,,,,,,,,False
+Rainbow Trail,,0,,,,,,,,,,,,,,,,,,,,False
+Gunpowder Trail,,10,,,,,,,,,,,,,,,,,,,,False
+Toxic Sludge To Acid,,50,,,,,+0.17,,,,,,,,,,,,,,,False
+Chaotic Transmutation,8,80,,,,,+0.33,,,,,,,,,,,,,,,True
+Ground To Sand,8,70,,,,,+1.00,,,,,,,,,,,,,,,False
+Liquid Detonation,,40,,,,,+0.33,,,,,,,,,,,,,,,False
+Blood To Acid,,30,,,,,+0.17,,,,,,,,,,,,,,,False
+Lava To Blood,,30,,,,,+0.17,,,,,,,,,,,,,,,False
+Water To Poison,,30,,,,,+0.17,,,,,,,,,,,,,,,False
+Weakening Curse - Electricity,,50,,,,,,,,,,,,,,,,,,,,False
+Weakening Curse - Explosives,,50,,,,,,,,,,,,,,,,,,,,False
+Weakening Curse - Melee,,50,,,,,,,,,,,,,,,,,,,,False
+Weakening Curse - Projectiles,,50,,,,,,,,,,,,,,,,,,,,False
+Venomous Curse,,30,,,,,,,,,,,,,,,,,,,,False
+Chunk Of Soil,,5,15,,,1,,,,,,,,,,,,,,,,False
+Circle Of Acid,4,40,,,,260,+0.33,,,,,,,,,,,,,,,False
+Circle Of Fire,15,20,,,,260,+0.33,,,,,,,,,,,,,,,False
+Circle Of Oil,15,20,,,,260,+0.33,,,,,,,,,,,,,,,False
+Circle Of Water,15,20,,,,260,+0.33,,,,,,,,,,,,,,,False
+Cement,,0,,,129,360,-0.25,-0.17,,,,,,,,,,,,,,False
+Water,,0,,,129,360,-0.25,-0.17,,,,,,,,,,,,,,False
+Blood,250,0,,,129,360,-0.25,-0.17,,,,,,,,,,,,,,False
+Oil,,0,,,129,360,-0.25,-0.17,,,,,,,,,,,,,,False
+Acid,,0,,,129,360,-0.25,-0.17,,,,,,,,,,,,,,False
+Sea Of Acid,3,140,,,,300,+0.25,,,,,,,,,,,,,,,False
+Sea Of Alcohol,3,140,,,,300,+0.25,,,,,,,,,,,,,,,False
+Sea Of Flammable Gas,3,140,,,,300,+0.25,,,,,,,,,,,,,,,False
+Sea Of Lava,3,140,,,,300,+0.25,,,,,,,,,,,,,,,False
+Sea Of Oil,3,140,,,,300,+0.25,,,,,,,,,,,,,,,False
+Sea Of Water,3,140,,,,300,+0.25,,,,,,,,,,,,,,,False
+Touch Of Blood,3,270,,,,4,,,,,,,,,,,,,,,,False
+Touch Of Gold,1,300,,,,4,,,,,,,,,,,,,,,,False
+Touch Of Oil,5,260,,,,4,,,,,,,,,,,,,,,,False
+Touch Of Smoke,5,230,,,,4,,,,,,,,,,,,,,,,False
+Touch Of Spirits,5,240,,,,4,,,,,,,,,,,,,,,,False
+Touch Of Water,5,280,,,,4,,,,,,,,,,,,,,,,False
+Double Spell,,0,,,,,,,,,,,,,,,,,,,,False
+Triple Spell,,2,,,,,,,,,,,,,,,,,,,,False
+Quadruple Spell,,5,,,,,,,,,,,,,,,,,,,,False
+Octuple Spell,,30,,,,,,,,,,,,,,,,,,,,False
+Myriad Spell,30,50,,,,,,,,,,,,,,,,,,,,False
+Double Scatter Spell,,0,,,,,,,+10,,,,,,,,,,,,,False
+Triple Scatter Spell,,1,,,,,,,+20,,,,,,,,,,,,,False
+Quadruple Scatter Spell,,2,,,,,,,+40,,,,,,,,,,,,,False
+Formation - Behind Your Back,,0,,,,,,,,,,,,,,,,,,,,False
+Formation - Above And Below,,3,,,,,,,,,,,,,,,,,,,,False
+Formation - Pentagon,,5,,,,,,,,,,,,,,,,,,,,False
+Formation - Hexagon,,6,,,,,,,,,,,,,,,,,,,,False
+Formation - Bifurcated,,2,,,,,,,,,,,,,,,,,,,,False
+Formation - Trifurcated,,3,,,,,,,,,,,,,,,,,,,,False
+Add Trigger,,10,,,,,,,,,,,,,,,,,,,,False
+Add Timer,,20,,,,,,,,,,,,,,,,,,,,False
+Add Expiration Trigger,,20,,,,,,,,,,,,,,,,,,,,False
+Divide By 2,,35,,,,,+0.33,,,,,,,-5,,,,,,,,False
+Divide By 3,,50,,,,,+0.58,,,,,,,-5,,,,,,,,False
+Divide By 4,,70,,,,,+0.83,,,,,,,-5,,,,,,,,False
+Divide By 10,5,200,,,,,+1.33,+0.33,,,,,,-5,,,,,,,,False
+Alpha,,30,,,,,+0.25,,,,,,,,,,,,,,,False
+Zeta,,10,,,,,,,,,,,,,,,,,,,,False
+Tau,,80,,,,,+0.58,,,,,,,,,,,,,,,False
+Gamma,,30,,,,,+0.25,,,,,,,,,,,,,,,False
+Mu,,120,,,,,+0.83,,,,,,,,,,,,,,,False
+Phi,,120,,,,,+0.83,,,,,,,,,,,,,,,False
+Sigma,,120,,,,,+0.50,,,,,,,,,,,,,,,False
+Omega,,300,,,,,+0.83,,,,,,,,,,,,,,,False
+Kantele - Note A,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Kantele - Note D,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Kantele - Note D+,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Kantele - Note E,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Kantele - Note G,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note A,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note B,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note C,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note D,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note E,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note F,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note G+,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Ocarina - Note A2,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False
+Random Spell,,5,,,,,,,,,,,,,,,,,,,,False
+Copy Random Spell,,20,,,,,,,,,,,,,,,,,,,,False
+Copy Random Spell Thrice,,50,,,,,,,,,,,,,,,,,,,,False
+Copy Three Random Spells,,40,,,,,,,,,,,,,,,,,,,,False
+Requirement - Projectile Spells,,0,,,,,,,,,,,,,,,,,,,,False
+Requirement - Low Health,,0,,,,,,,,,,,,,,,,,,,,False
+Requirement - Enemies,,0,,,,,,,,,,,,,,,,,,,,False
+Requirement - Every Other,,0,,,,,,,,,,,,,,,,,,,,False
+Requirement - Otherwise,,0,,,,,,,,,,,,,,,,,,,,False
+Requirement - Endpoint,,0,,,,,,,,,,,,,,,,,,,,False
+Spell Duplication,,250,,,,,+0.33,+0.33,,,,,,,,,,,,,,False
+Summon Portal,7,50,,,,,+1.33,,,,,,,,,,,,,,,False
+The End Of Everything,1,600,,,,,+1.67,+1.67,,,,,,,,,,,,,,False
