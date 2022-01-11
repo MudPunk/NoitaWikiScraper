@@ -116,14 +116,14 @@ Small Teleport Bolt,,20,2,,1350,8,,,-2,,,,,,,,,,,,,False
 Triplicate Bolt,,25,4,2.3,550,120,+0.13,,+14,,,,,4.625 x 3,,,,,,,,False
 Unstable Crystal,15,20,30,2.9,265,-1,+0.50,,,0.75,,,,,400,,,,,,,False
 Unstable Crystal With Trigger,15,20,30,2.9,265,-1,+0.50,,,0.75,,,,,400,,,,,,,False
-Worm Launcher,10,150,,+20,250,,+1.33,+0.67,,,,,,,,,,,,,,False
-Horizontal Barrier,,70,,,,3,+0.08,,,,,,,,,3,,,,,,False
+Worm Launcher,10,150,,+20,250,,+1.33,+0.67,,,,,,,,3,,,,,,False
+Horizontal Barrier,,70,,,,3,+0.08,,,,,,,,,,,,,,,False
 Vertical Barrier,,70,,,,3,+0.08,,,,,,,,,,,,,,,False
 Square Barrier,20,70,,,,3,+0.33,,,,,,,,,,,,,,,False
 Circle of Buoyancy,15,10,,,,,+0.25,,,,,,,,,,,,,,,False
+Circle of Displacement,15,30,,,,,+0.25,,,,,,,,,,,,,,,False
 Circle of Stillness,15,50,,,,,+0.25,,,,,,,,,,,,,,,False
 Circle of Thunder,15,60,,,,,+0.25,,,,,,,,,,,,,,,False
-Circle of Displacement,15,30,,,,,+0.25,,,,,,,,,,,,,,,False
 Circle of Fervour,15,30,,,,,+0.25,,,,,,,,,,,,,,,False
 Circle of Shielding,10,20,,,,,+0.25,,,,,,,,,,,,,,,False
 Circle of Unstable Metamorphosis,10,20,,,,,+0.25,,,,,,,,,,,,,,,False
@@ -152,7 +152,7 @@ Projectile Thunder Field,3,140,,,,,+0.25,,,,,,,,,,,,,,,False
 Random Static Projectile Spell,,20,,,,,,,,,,,,,,,,,,,,False
 Giga Black Hole,6,240,1,,,500,+1.33,,,,,,,,,,,,,,,False
 Omega Black Hole,6,500,,,,,+2.0,+1.67,,,,,,,,,,,,,,False
-Summon Friendly Fly,,120,1,45.8,100,1800,+1.33,+0.67,+24,,,,,,,,,,,,,False
+Summon Friendly Fly,,120,1,45.8,100,1800,+1.33,+0.67,+24,,,,,,,10,,,,,,False
 Summon Fly Swarm,,70,1,45.8,100,750,+1.00,+0.33,+6,,,,,,,3.5 (x 5),,,,,,False
 Summon Firebug Swarm,,80,1,45.8,100,850,+1.00,+0.33,+12,,,,,,,3.5 (x 5),,,,,,False
 Summon Wasp Swarm,,90,1,45.8,100,1100,+1.00,+0.33,+24,,,,,,,3.5 (x 5),,,,,,False
@@ -183,9 +183,9 @@ Gold To Power,,30,,,,,,,,,,,,,,,,,,,,False
 Wand Refresh,,20,,,,,,-0.42,,,,,,,,,,,,,,False
 Add Mana,,-30,,,,,+0.17,,,,,,,,,,,,,,,False
 Electric Arc,,15,,,,,,,,,,,,,,,,,,,,False
+Poison Arc,,15,,,,,,,,,,,,,,,,,,,,False
 Fire Arc,,15,,,,,,,,,,,,,,,,,,,,False
 Gunpowder Arc,,15,,,,,,,,,,,,,,,,,,,,False
-Poison Arc,,15,,,,,,,,,,,,,,,,,,,,False
 Octagonal Bolt Bundle,,100,12,,100,360,+0.33,,,,,,,33,140,,,,,,,False
 Downwards Bolt Bundle,,90,12,,100,360,+0.42,,,,,,,33,140,,,,,,,False
 Bubbly Bounce,,13,,,,,+0.13,,,,,+1,,,,,,,,,,False
@@ -195,8 +195,8 @@ Laser Bounce,,30,,,,,+0.20,,,,,+1,,,,,,,,,,False
 Larpa Bounce,,80,,,,,+0.53,,,,,+1,,,,,,,,,,False
 Bounce,,0,,,,,,,,,,+10,,,,,,,,,,False
 Explosive Bounce,,20,,,,,+0.42,,,,,+1,,,,,,,,,,False
-Chain Spell,,70,-5,,,,,,+10,,-30,,,,,,,,,,,False
-Concentrated Explosion,,40,-30,,,,+0.25,,,,,,,-5,20,,,,,,,False
+Chain Spell,,70,-5,,,,,,+10,,-30,,,-5,,,,,,,,False
+Concentrated Explosion,,40,-30,,,,+0.25,,,,,,,,20,,,,,,,False
 Copy Trail,,150,,,,,+0.33,,,,,,,,,,,,,,,False
 Critical On Bloody Enemies,,10,,,,,,,,,,,,,,,,,,,,False
 Critical On Oiled Enemies,,10,,,,,,,,,,,,,,,,,,,,False
@@ -244,8 +244,8 @@ Nuke Orbit,3,250,,,,,,,,,,,,,,,,,,,,False
 Plasma Beam Orbit,,100,,,,,,,,,,,,,,,,,,,,False
 Orbit Larpa,,90,,,,,,,,,,,,,,,,,,,,False
 Linear Arc,,0,,,,,-0.07,,,,,,,+5,,,,,,,,False
-Horizontal Path,,0,,,,,-0.10,,,,,,,,,,,,,,,False
-Anti-Gravity,,1,,,,,,,,,,,,+7.5,,,,,,,,False
+Horizontal Path,,0,,,,,-0.10,,,,,,,+7.5,,,,,,,,False
+Anti-Gravity,,1,,,,,,,,,,,,,,,,,,,,False
 Gravity,,1,,,,,,,,,,,,,,,,,,,,False
 Fly Upwards,,0,,,,,-0.05,,,,,,,,,,,,,,,False
 Fly Downwards,,0,,,,,-0.05,,,,,,,,,,,,,,,False
@@ -255,8 +255,8 @@ Orbiting Arc,,0,,,,,-0.10,,,,+25,,,+2.5,,,,,,,,False
 Chaotic Path,,0,,,,,,,,2.00,,,,,,,,,,,,False
 Ping-Pong Path,,0,,,,,,,,,+25,,,,,,,,,,,False
 Slithering Path,,0,,,,,,,,2.00,,,,,,,,,,,,False
-Short-range Homing,,40,,,,,,,,,,,,,,,,,,,,False
 Projectile Area Teleport,,60,,+6,,,+0.13,,,0.75,,,,,,,,,,,,True
+Short-range Homing,,40,,,,,,,,,,,,,,,,,,,,False
 Aiming Arc,,30,,,,,,,,,,,,,,,,,,,,False
 Rotate Towards Foes,,40,,,,,,,,,,,,,,,,,,,,False
 Boomerang,,10,,,,,,,,,,,,,,,,,,,,False
