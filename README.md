@@ -7,7 +7,7 @@ This is currently built to only scrape the [Noita Wiki Spell Information Table](
 ## Dependencies
 
 ```
-npm install cheerio, fast-csv, request-promise
+npm install cheerio, request-promise
 ```
 
 ## Execution
