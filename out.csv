@@ -81,8 +81,8 @@ Plasma Cutter,,40,,,40,,,+0.17,,,,,,20,,,,,,,,True
 Pollen,,10,7,0.6,200,,+0.03,,+20,,,,,5,20,,,,,,,False
 Prickly Spore Pod,,20,,2.9,225,100,+0.67,,,,,,,2.5,,,,,,,,True
 Propane Tank,10,75,60,,,-1,+1.67,,,,,,,,1300,,,,,,,False
-Random Projectile Spell,,20,,,,,,,,,,,,,,,,,,,,False
 Chaos Magic,30,120,,,,,+0.67,,,,,,,,,,,,,,,False
+Random Projectile Spell,,20,,,,,,,,,,,,,,,,,,,,False
 Rock,3,100,,,,-1,,,,,,,,,,,,,,,,False
 Disc Projectile,,20,,0.6,400,750,+0.17,,+2,,,,,,,,,,20,,,False
 Giga Disc Projectile,,38,,0.6,250,300,+0.33,,+3,,,,,,,,,,62.5,,,False
@@ -233,9 +233,9 @@ Chaos Larpa,,100,,,,,+0.25,,,,,,,,,,,,,,,False
 Downwards Larpa,,120,,,,,+0.25,,,,,,,,,,,,,,,False
 Larpa Explosion,30,90,,,,,+0.25,,,,,,,,,,,,,,,False
 Upwards Larpa,,120,,,,,+0.25,,,,,,,,,,,,,,,False
-Reduce Lifetime,,10,,,,,-0.25,,,,-42,,,,,,,,,,,False
 Nolla,,1,,,,,-0.25,,,,,,,,,,,,,,,False
 Increase Lifetime,,40,,,,,+0.22,,,,+75,,,,,,,,,,,False
+Reduce Lifetime,,10,,,,,-0.25,,,,-42,,,,,,,,,,,False
 Light,,1,,,,,,,,,,,,,,,,,,,,False
 Necromancy,,20,,,,,+0.17,,,,,,,,,,,,,,,False
 Fireball Orbit,,40,,,,,,,,,,,,,,,,,,,,False
@@ -249,15 +249,15 @@ Anti-Gravity,,1,,,,,,,,,,,,,,,,,,,,False
 Gravity,,1,,,,,,,,,,,,,,,,,,,,False
 Fly Upwards,,0,,,,,-0.05,,,,,,,,,,,,,,,False
 Fly Downwards,,0,,,,,-0.05,,,,,,,,,,,,,,,False
+Ping-Pong Path,,0,,,,,,,,,+25,,,,,,,,,,,False
+Orbiting Arc,,0,,,,,-0.10,,,,+25,,,+2.5,,,,,,,,False
 Spiral Arc,,0,,,,,-0.10,,,,+50,,,+2.5,,,,,,,,False
 Phasing Arc,,2,,,,,-0.10,,,0.33,+80,,,,,,,,,,,False
-Orbiting Arc,,0,,,,,-0.10,,,,+25,,,+2.5,,,,,,,,False
 Chaotic Path,,0,,,,,,,,2.00,,,,,,,,,,,,False
-Ping-Pong Path,,0,,,,,,,,,+25,,,,,,,,,,,False
 Slithering Path,,0,,,,,,,,2.00,,,,,,,,,,,,False
 Projectile Area Teleport,,60,,+6,,,+0.13,,,0.75,,,,,,,,,,,,True
-Short-range Homing,,40,,,,,,,,,,,,,,,,,,,,False
 Aiming Arc,,30,,,,,,,,,,,,,,,,,,,,False
+Short-range Homing,,40,,,,,,,,,,,,,,,,,,,,False
 Rotate Towards Foes,,40,,,,,,,,,,,,,,,,,,,,False
 Boomerang,,10,,,,,,,,,,,,,,,,,,,,False
 Accelerative Homing,,60,,,,,,,,,,,,,,,,,,,,False
@@ -293,8 +293,8 @@ Plasma Beam Thrower,16,110,,,,,,,,,,,,,,,,,,,,False
 Lightning Thrower,16,110,,,,,,,,,,,,,,,,,,,,False
 Tentacler,16,110,,,,,,,,,,,,,,,,,,,,False
 Two-Way Fireball Thrower,20,130,,,,,,,,,,,,,,,,,,,,False
-Spells To Power,,110,,,,,+0.33,,,,,,,,,,,,,,,False
 Essence to Power,,110,,,,,+0.33,,,,,,,,,,,,,,,False
+Spells To Power,,110,,,,,+0.33,,,,,,,,,,,,,,,False
 Water Trail,,10,,,,,,,,,,,,,,,,,,,,False
 Poison Trail,,10,,,,,,,,,,,,,,,,,,,,False
 Oil Trail,,10,,,,,,,,,,,,,,,,,,,,False
@@ -359,11 +359,11 @@ Divide By 3,,50,,,,,+0.58,,,,,,,-5,,,,,,,,False
 Divide By 4,,70,,,,,+0.83,,,,,,,-5,,,,,,,,False
 Divide By 10,5,200,,,,,+1.33,+0.33,,,,,,-5,,,,,,,,False
 Alpha,,30,,,,,+0.25,,,,,,,,,,,,,,,False
-Zeta,,10,,,,,,,,,,,,,,,,,,,,False
 Tau,,80,,,,,+0.58,,,,,,,,,,,,,,,False
 Gamma,,30,,,,,+0.25,,,,,,,,,,,,,,,False
 Mu,,120,,,,,+0.83,,,,,,,,,,,,,,,False
 Phi,,120,,,,,+0.83,,,,,,,,,,,,,,,False
+Zeta,,10,,,,,,,,,,,,,,,,,,,,False
 Sigma,,120,,,,,+0.50,,,,,,,,,,,,,,,False
 Omega,,300,,,,,+0.83,,,,,,,,,,,,,,,False
 Kantele - Note A,,1,,,350,2,+0.25,,,,,,,,,,,,,,,False

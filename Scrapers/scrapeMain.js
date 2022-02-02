@@ -2,13 +2,6 @@ const requestPromise= require("request-promise");
 const cheerio= require("cheerio");
 const fs = require('fs');
 const { Console } = require("console");
-fs.truncate('out.csv', () => { });
-fs.appendFile('out.csv', 'Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%),Damage (Projectile), Damage (Explosion), Damage (Melee), Damage (Electric), Damage (Fire), Damage (Slice), Damage (Ice), Damage (Drill), Has Piercing (subject to review)'+'\r\n', 
-    function (err) {
-        if (err) throw err;
-        else console.log('CSV cleared, Header reapplied.');
-    });
-
 /*
 # References
 
@@ -135,9 +128,16 @@ module.exports = {
         return returnValReturn;
     },
 
-    scrapeINIT: async function() {
-        
-        scrapePrimaryUrlArr = await module.exports.scrapePrimaryUrl('https://noita.fandom.com/wiki/Spell_Information_Table');
+    scrapeINIT: async function(urlToScrape, debug) {
+
+        fs.truncate('out.csv', () => { });
+        fs.appendFile('out.csv', 'Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%),Damage (Projectile), Damage (Explosion), Damage (Melee), Damage (Electric), Damage (Fire), Damage (Slice), Damage (Ice), Damage (Drill), Has Piercing (subject to review)'+'\r\n', 
+            function (err) {
+                if (err) throw err;
+                else console.log('Spells CSV cleared, Header reapplied.');
+            });
+                    
+        scrapePrimaryUrlArr = await module.exports.scrapePrimaryUrl(urlToScrape);
         
         var scrapePierceTextText = '';
 
