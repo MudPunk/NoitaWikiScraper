@@ -1,7 +1,6 @@
-const youPromiseMe = require("./Scrapers/scrapeMain.js");
+const youPromiseMe = require("./Scrapers/scrapeSpells.js");
 const somePromiseYouMade = require("./Scrapers/scrapeBosses.js");
 
-var BossesSpellsOrEnemies = ['Bosses', 'Spells', 'Enemies'];
 var Parameter1 = '';
 var urlToBosses = 'https://noita.fandom.com/wiki/Enemies'
 

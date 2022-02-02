@@ -9,7 +9,6 @@ const { Console } = require("console");
 
 * https://stackoverflow.com/questions/44498314/promise-resolve-returning-2-arrays-one-undefined
     * Return object of arrays from promise
-
 */
 
 module.exports = {

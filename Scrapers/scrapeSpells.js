@@ -1,7 +1,7 @@
 const requestPromise= require("request-promise");
 const cheerio= require("cheerio");
 const fs = require('fs');
-const { Console } = require("console");
+
 /*
 # References
 
@@ -14,7 +14,7 @@ const { Console } = require("console");
 
 module.exports = {
 
-    scrapePrimaryUrl: async function(urlToScrape) {
+    scrapePrimaryUrl: async function(urlToScrape, debug) {
 
         var spellData = [];
         var spellHREF = [];
@@ -26,8 +26,7 @@ module.exports = {
                         if(!error && response.statusCode==200) {
                             const $= cheerio.load(html);
                             var http_or_https = (urlToScrape.indexOf("https") == 0 ? "https:" : "http:" );
-                            const datarow= $(".cargoTable");
-
+                               
                             $("tr").each((i, data) => {
                                 var csvDataRow = $(data).text().replaceAll('\n', ',');
 
@@ -41,6 +40,10 @@ module.exports = {
                                     
                                 }
                             }) 
+                            if (debug == 1) {
+                                console.log("spellHREF: " + spellHREF)
+                                console.log("spellData: " + spellData)
+                            }                            
                             resolve({spellHREF_Return: spellHREF, spellData_Return: spellData}); //returns object that contains the two arrays
                         } //if(!error && response.statusCode==200) {
                     }
@@ -52,7 +55,7 @@ module.exports = {
         return spellHREFArrReturn;
     },
 
-    scrapeSecondaryUrl: async function(urlToScrape) {
+    scrapeSecondaryUrl: async function(urlToScrape, debug) {
 
         spellDamageLabelArr = [];
         spellDamageValueArr = [];
@@ -64,10 +67,6 @@ module.exports = {
                     urlToScrape, (error, response, html) => {
                         if(!error && response.statusCode==200) {
                             const $= cheerio.load(html);
-
-                            var http_or_https = (urlToScrape.indexOf("https") == 0 ? "https" : "http" );
-                            const datarow= $("div.wds-tab__content.wds-is-current");
-
                             var regExPattern = /^(damage).*(.*[^0-9]$)/; //find strings that end with 0-9, and ignore them. ^ asserts position at start of a line. $ asserts position at the end of a line.
 
                             var spellDivArr = [];
@@ -87,11 +86,15 @@ module.exports = {
                                             spellDamageLabelArr.push(spellDamageLabel);
                                             spellDamageValueArr.push(spellDamageValue);
                                             spellInfoArr.push(spellDamageLabel + "," + spellDamageValue);
-                                            //console.log(spellDamageLabel + "," + spellDamageValue);
+                                            if (debug==1) console.log(spellDamageLabel + "," + spellDamageValue);
                                         }
                                     }
                                 } // (i, data)
                             );
+                            if (debug == 1) {
+                                console.log("spellDamageLabelArr: " + spellDamageLabelArr)
+                                console.log("spellDamageValueArr: " + spellDamageValueArr)
+                            }
                             resolve({spellDamageLabelArr_Return: spellDamageLabelArr, spellDamageValueArr_Return: spellDamageValueArr});
                         } //if(!error && response.statusCode==200)
                     }
@@ -102,25 +105,24 @@ module.exports = {
         return spellInfoArrReturn;
     },
 
-    scrapePierceText: async function(urlToScrape) { 
+    scrapePierceText: async function(urlToScrape, debug) { 
         var csvDataRow = '';
-        var returnVal = '';
+        var textWithPiercing = '';
         
         const promise = new Promise (
             (resolve) => {
             requestPromise(urlToScrape, (error, response, html) => {
                 if(!error && response.statusCode==200) {
                     const $= cheerio.load(html);
-                    var http_or_https = (urlToScrape.indexOf("https") == 0 ? "https:" : "http:" );
-                    const datarow= $("div.mw-parser-output");                
         
                     $("ul").each((i, data) => {     
                         csvDataRow = $(data).find("li").clone().children().remove().end().text().trim();
                         if (csvDataRow.indexOf("piercing") > 0 || csvDataRow.indexOf("piercing") > 0) {
-                            returnVal = csvDataRow;                      
+                            textWithPiercing = csvDataRow;                      
                         }                
                     }) 
-                    resolve(returnVal);
+                    if (debug==1) console.log('textWithPiercing: ' + textWithPiercing)
+                    resolve(textWithPiercing);
                 } // if(!error && response.statusCode==200)
             })
         }); 
@@ -130,14 +132,14 @@ module.exports = {
 
     scrapeINIT: async function(urlToScrape, debug) {
 
-        fs.truncate('out.csv', () => { });
-        fs.appendFile('out.csv', 'Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%),Damage (Projectile), Damage (Explosion), Damage (Melee), Damage (Electric), Damage (Fire), Damage (Slice), Damage (Ice), Damage (Drill), Has Piercing (subject to review)'+'\r\n', 
+        fs.truncate('NoitaSpells.csv', () => { });
+        fs.appendFile('NoitaSpells.csv', 'Spell,Uses,Mana drain,Radius,Spread (DEG),Speed,Lifetime,Cast delay (s),Recharge time (s),Spread Modifier (DEG),Speed modifier,Lifetime Modifier,Bounces,Critical chance (%),Damage (Projectile), Damage (Explosion), Damage (Melee), Damage (Electric), Damage (Fire), Damage (Slice), Damage (Ice), Damage (Drill), Has Piercing (subject to review)'+'\r\n', 
             function (err) {
                 if (err) throw err;
                 else console.log('Spells CSV cleared, Header reapplied.');
             });
-                    
-        scrapePrimaryUrlArr = await module.exports.scrapePrimaryUrl(urlToScrape);
+
+        scrapePrimaryUrlArr = await module.exports.scrapePrimaryUrl(urlToScrape, debug);
         
         var scrapePierceTextText = '';
 
@@ -145,8 +147,8 @@ module.exports = {
         
         for(var x = 0; x < scrapePrimaryUrlArr.spellHREF_Return.length; x++) {
 
-            scrapeSecondaryUrlArr = await module.exports.scrapeSecondaryUrl(scrapePrimaryUrlArr.spellHREF_Return[x]);
-            scrapePierceTextText = await module.exports.scrapePierceText(scrapePrimaryUrlArr.spellHREF_Return[x]);
+            scrapeSecondaryUrlArr = await module.exports.scrapeSecondaryUrl(scrapePrimaryUrlArr.spellHREF_Return[x], debug);
+            scrapePierceTextText = await module.exports.scrapePierceText(scrapePrimaryUrlArr.spellHREF_Return[x], debug);
 
             dmgString = 'Damage (Projectile),Damage (Explosion),Damage (Melee),Damage (Electric),Damage (Fire),Damage (Slice),Damage (Ice),Damage (Drill)';
             for (var dmgValIndex=0; dmgValIndex<scrapeSecondaryUrlArr.spellDamageLabelArr_Return.length;dmgValIndex++) {
@@ -187,7 +189,7 @@ module.exports = {
             dmgString = dmgString.replace('Damage (Ice)', '');
             dmgString = dmgString.replace('Damage (Drill)', '');
             
-            fs.appendFile('out.csv', scrapePrimaryUrlArr.spellData_Return[x] + ',' + dmgString + ',' + (scrapePierceTextText.length > 0 ? 'True' : 'False') + '\r\n', function (err) { if (err) throw err; /*console.log('Saved!');*/ });
+            fs.appendFile('NoitaSpells.csv', scrapePrimaryUrlArr.spellData_Return[x] + ',' + dmgString + ',' + (scrapePierceTextText.length > 0 ? 'True' : 'False') + '\r\n', function (err) { if (err) throw err; /*console.log('Saved!');*/ });
         }
     }
 };
