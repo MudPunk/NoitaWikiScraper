@@ -12,8 +12,8 @@ npm install cheerio, request-promise
 
 ## Execution
 
-Just call `index.js`
+Call `index.js`, include `Enemies` or `Spells`, and include `1` if you want the debug output or not.
 
 ```
-node .\index.js
+node .\index.js Enemies 1
 ```
