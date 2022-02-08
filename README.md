@@ -2,7 +2,9 @@
 
 Little node project to give me an excuse to play with javascript since it's about as frustrating and magical as [Noita](https://noitagame.com/), ["A totally finnished and bug free game."](https://noitagame.com/release_notes/).
 
-This is currently built to only scrape the [Noita Wiki Spell Information Table](https://noita.fandom.com/wiki/Spell_Information_Table) and the sub pages the spells are linked to under `/wiki/<spell>`, such as [Energy Orb](https://noita.fandom.com/wiki/Energy_Orb)
+This is currently built to scrape the [Noita Wiki Spell Information Table](https://noita.fandom.com/wiki/Spell_Information_Table) and the sub pages the spells are linked to under `/wiki/<spell>`, such as [Energy Orb](https://noita.fandom.com/wiki/Energy_Orb)
+
+It can also scrape the Bosses from the [Enemies](https://noita.fandom.com/wiki/Enemies) page and parse their sub pages for damage modifier info.
 
 ## Dependencies
 
