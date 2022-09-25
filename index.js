@@ -2,9 +2,9 @@ const youPromiseMe = require("./Scrapers/scrapeSpells.js");
 const somePromiseYouMade = require("./Scrapers/scrapeBosses.js");
 
 var Parameter1 = '';
-var urlToBosses = 'https://noita.fandom.com/wiki/Enemies'
+var urlToBosses = 'https://noita.wiki.gg/wiki/Enemies'
 
-var urlToSpells = 'https://noita.fandom.com/wiki/Spell_Information_Table'
+var urlToSpells = 'https://noita.wiki.gg/wiki/Spell_Information_Table'
 
 var debug = true;
 var helpFlagged = false;
